@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Laboratorios Ross D&#039;Elen</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description></description>
 	<lastBuildDate>Fri, 24 Feb 2023 16:46:15 +0000</lastBuildDate>
 	<language>es</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>Ross D´Elen Green Menthol RELIEF andRECOVERY GEL Massager</title>
-		<link>/2023/02/24/ross-delen-green-menthol-relief-andrecovery-gel-massager/</link>
+		<link>./../ross-delen-green-menthol-relief-andrecovery-gel-massager/index.html</link>
 		
 		<dc:creator><![CDATA[eme]]></dc:creator>
 		<pubDate>Fri, 24 Feb 2023 16:45:34 +0000</pubDate>

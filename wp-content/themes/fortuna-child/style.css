@@ -14,43 +14,43 @@
 
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-SemiBold.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-SemiBold.woff') format('woff');
+    src: url('./fonts/HKGrotesk-SemiBold.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Bold.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Bold.woff') format('woff');
+    src: url('./fonts/HKGrotesk-Bold.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Medium.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Medium.woff') format('woff');
+    src: url('./fonts/HKGrotesk-Medium.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Regular.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Regular.woff') format('woff');
+    src: url('./fonts/HKGrotesk-Regular.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Light.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Light.woff') format('woff');
+    src: url('./fonts/HKGrotesk-Light.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'HK Grotesk Legacy';
-    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-BoldLegacy.woff2') format('woff2'),
-        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-BoldLegacy.woff') format('woff');
+    src: url('./fonts/HKGrotesk-BoldLegacy.woff2') format('woff2'),
+        url('./fonts/HKGrotesk-BoldLegacy.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -154,7 +154,7 @@ html a.btn_rossdelen:hover {
 }
 
 div#preguntas_row:before {
-    content: url(/wp-content/uploads/2019/07/preguntas.png);
+    content: url(./../../uploads/2019/07/preguntas.png);
     position: absolute;
     right: 0;
     top: 0;
@@ -358,7 +358,7 @@ input#nf-field-18:hover {
 }
 
 div#contacto_form:before {
-    content: url(/wp-content/uploads/2019/08/phone.png);
+    content: url(./../../uploads/2019/08/phone.png);
     position: absolute;
     right: -15%;
     bottom: -15%;
@@ -366,7 +366,7 @@ div#contacto_form:before {
 }
 
 div#terminos_condiciones:before {
-    content: url(/wp-content/uploads/2019/08/terminos.png);
+    content: url(./../../uploads/2019/08/terminos.png);
     position: absolute;
     right: 0;
     top: 0;
@@ -378,7 +378,7 @@ div#terminos_condiciones p {
 
 div#nosotrs_home .upb_row_bg:before {
     content: "";
-    background-image: url(/wp-content/uploads/2019/08/home_nosot.png);
+    background-image: url(./../../uploads/2019/08/home_nosot.png);
     position: absolute;
     bottom: 0;
     width: 206px;
