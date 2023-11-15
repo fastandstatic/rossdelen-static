@@ -1,0 +1,452 @@
+/*
+ Theme Name:     Fortuna Child
+ Description:    Fortuna Child Theme
+ Author:         BlueOwlCreative
+ Version:        1.10
+ Template:       fortuna
+
+*/
+ 
+ 
+
+/* Theme customization starts here */
+/********fonts**************/
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-SemiBold.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Bold.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Medium.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Regular.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Light.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK Grotesk Legacy';
+    src: url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-BoldLegacy.woff2') format('woff2'),
+        url('/wp-content/themes/fortuna-child/fonts/HKGrotesk-BoldLegacy.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/******fonts********/
+
+h1, h2, h3, h4, h5, h6, .heading_font{
+    text-transform: none !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'HK Grotesk';
+    font-weight: 300;
+}
+
+a.btn_rossdelen {
+    background: transparent;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 0px !important;
+    font-family: 'HK Grotesk Legacy';
+    font-weight: bold;
+    padding: 12px 16px 9px !important;
+    min-width: 150px;
+    text-align: center;
+}
+
+body {
+    line-height: 1.2;
+    font-family: 'HK Grotesk';
+    font-weight: normal !important;
+}
+
+div#productos_home .top-icon .aio-icon-header h3.aio-icon-title {
+    margin: 5px 0 5px;
+    font-family: 'HK Grotesk';
+    font-weight: 600;
+}
+
+div#cont_btn {
+    text-align: center;
+}
+
+html a.btn_rossdelen:hover {
+    background: #94c83f;
+    color: white !important;
+    border-color: #94c83f;
+}
+
+#footer {
+    background: #FFF5F5;
+    color: #383838;
+    padding-top: 40px;
+}
+
+.col:first-child {
+    text-align: center;
+}
+
+.ross_footLogo.cent_footer {
+    margin-bottom: 15px !important;
+}
+
+#footer h3 {
+    color: #383838 !important;
+    font-family: 'HK Grotesk';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.textwidget {
+    font-family: 'HK Grotesk';
+    font-weight: normal;
+}
+
+#footer a {
+    color: #383838;
+}
+
+.footer_btm {
+    padding: 5px 0px 10px;
+    background: #fff5f5;
+    border-top: 1px solid #fff5f5;
+    margin-top: 0px;
+}
+
+#powered {
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center !important;
+    color: #383838 !important;
+    font-family: 'HK Grotesk';
+    font-weight: 500 !important;
+}
+
+#footer a:hover {
+    color: #94c83f;
+}
+
+div#preguntas_row:before {
+    content: url(/wp-content/uploads/2019/07/preguntas.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+h4.subtitle_preguntas {
+    font-weight: 600;
+}
+
+h4.subtitle_despacho {
+    font-weight: bold;
+}
+
+div#preguntas_row p, div#preguntas_row a {
+    color: #313131 !important;
+}
+
+div#preguntas_row a:hover {
+    color: #94c83f !important;
+}
+
+.h20 {
+    height: 0 !important;
+}
+
+.text_blanco {
+    color: white;
+}
+
+div#marcas_personalido h3.aio-icon-title.ult-responsive {
+    margin: 12px 0px 6px!important;
+    text-align: left;
+    font-weight: normal !important;
+    color: #333333 !important;
+    font-size: 19px;
+}
+
+div#marcas_personalido .aio-icon-description.ult-responsive {
+    text-align: left;
+    color: #313131 !important;
+}
+
+div#marcas_personalido .style_3 .aio-icon-box:hover .aio-icon, div#marcas_personalido .style_3 .aio-icon-box:hover .img-icon {
+    -webkit-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+/*
+div#banner_marcas {
+    background-attachment: fixed;
+}
+
+div#banner_nosotros {
+    background-attachment: fixed;
+}
+*/
+.conte_nosotoros h5.aio-icon-title.ult-responsive {
+    margin-bottom: 0 !important;
+    text-align: left;
+    font-family: 'HK Grotesk';
+    font-weight: bold;
+}
+
+.conte_nosotoros {
+    margin-bottom: 0;
+}
+
+.conte_nosotoros .top-icon .aio-icon-header+.aio-icon-description p {
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.conte_nosotoros .top-icon .aio-icon-header+.aio-icon-description {
+    margin-top: 0;
+    text-align: left !important;
+}
+
+.conte_nosotoros .aio-icon-description.ult-responsive h3 {
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+.conte_nosotoros .vc_col-sm-4 {
+    padding: 0px 20px;
+}
+
+h5.title_fecha {
+    font-family: 'HK Grotesk';
+    font-weight: bold;
+}
+
+div#banner_distribuidores {
+    background-attachment: fixed;
+}
+
+.title_semibold {
+    font-weight: 600;
+}
+
+.content_body a {
+    color: #333 !important;
+}
+
+.content_body a:hover {
+    color: #94c83f !important;
+}
+
+.nf-form-fields-required {
+    display: none;
+}
+
+.nf-form-content label {
+    color: #707070;
+    font-weight: normal !important;
+    line-height: 1.2 !important;
+    font-size: 16px !important;
+}
+
+div#contenido_formulario .nf-form-content .list-select-wrap .nf-field-element>div, div#contenido_formulario  .nf-form-content input:not([type=button]), div#contenido_formulario .nf-form-content textarea {
+    background: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    color: #787878;
+    transition: all .5s;
+    height: auto;
+    padding: 9px;
+}
+
+div#contenido_formulario select#nf-field-9 {
+    height: 40px;
+}
+
+div#contenido_formulario div#nf-field-9-wrap .nf-field-element div {
+    height: 40px;
+}
+
+div#contenido_formulario .nf-form-content .list-select-wrap>div div:after {
+    height: 40px;
+    line-height: 40px;
+}
+
+.nf-field-label {
+    margin-bottom: 5px !important;
+}
+
+div#contenido_formulario input#nf-field-4 {
+    width: 100%;
+    margin-top: 24px;
+    height: 40px;
+    background: #6CC3BF;
+    border-color: #6CC3BF;
+    line-height: 1.2;
+    text-shadow: none !important;
+    font-family: 'HK Grotesk Legacy';
+    font-weight: bold;
+}
+
+div#contenido_formulario input#nf-field-4:hover {
+    background: #94c83f;
+    color: white;
+}
+
+div#contacto_form .nf-form-content .list-select-wrap .nf-field-element>div, div#contacto_form .nf-form-content input:not([type=button]), div#contacto_form .nf-form-content textarea {
+    height: auto;
+    background: #ffffff54;
+    border: 1px solid #707070 !important;
+    padding: 10px;
+}
+
+div#contacto_form .nf-error.field-wrap .nf-field-element:after {
+    height: 40px;
+    line-height: 40px;
+}
+
+.nf-error.field-wrap .nf-field-element:after{
+    display: none;
+}
+
+div#contacto_form #ninja_forms_required_items, div#contacto_form .nf-field-container {
+    margin-bottom: 15px;
+}
+
+input#nf-field-18 {
+    background: transparent;
+    border: 2px solid #707070;
+    color: #707070;
+    padding: 6px 50px;
+    font-family: 'HK Grotesk Legacy';
+    line-height: 1.2;
+    text-shadow: none;
+}
+
+.nf-form-content textarea.ninja-forms-field {
+    height: 120px !important;
+}
+
+input#nf-field-18:hover {
+    background: #707070;
+    color: white;
+}
+
+div#contacto_form:before {
+    content: url(/wp-content/uploads/2019/08/phone.png);
+    position: absolute;
+    right: -15%;
+    bottom: -15%;
+    opacity: 0.7;
+}
+
+div#terminos_condiciones:before {
+    content: url(/wp-content/uploads/2019/08/terminos.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+div#terminos_condiciones p {
+    text-align: justify;
+}
+
+div#nosotrs_home .upb_row_bg:before {
+    content: "";
+    background-image: url(/wp-content/uploads/2019/08/home_nosot.png);
+    position: absolute;
+    bottom: 0;
+    width: 206px;
+    height: 124px;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#menu > ul > li > a {
+    font-family: 'HK Grotesk';
+    text-transform: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn_whatsapp a {
+    border: 1px solid #313131;
+    padding: 6px 10px!important;
+    line-height: 1.2 !important;
+    margin-top: 24px;
+}
+
+.main_menu_underline_effect #menu > ul > .btn_whatsapp > a:after {
+    background-color: transparent !important;
+}
+
+.btn_whatsapp a:hover {
+    color: white !important;
+    background: #94c83f !important;
+    border-color: #94c83f;
+}
+
+div#video_row:before {
+    content: "";
+    right: 0;
+    z-index: 99;
+    bottom: -80px;
+    position: absolute;
+    background-image: url(https://www.rossdelen.com/wp-content/uploads/2019/08/mancha.png);
+    width: 67px;
+    height: 153px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/************responsive****************/
+
+@media (min-width: 1000px){
+#logo {
+    position: relative;
+    left: 5%;
+}
+}
+
+@media (max-width: 1000px){
+.btn_whatsapp a {
+    margin-top: 0;
+    padding: 12px 30px !important;
+    line-height: 1.7em !important;
+}
+}
+
+@media (max-width: 768px){
+header#header {
+    padding: 5px 0px;
+}
+div#nosotrs_home {
+    padding-top: 0 !important;
+}
+}
