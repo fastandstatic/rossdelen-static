@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comentarios en Laboratorios Ross D&#039;Elen	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Thu, 30 Nov 2023 14:07:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
