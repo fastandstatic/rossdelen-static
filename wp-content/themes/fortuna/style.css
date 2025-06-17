@@ -4,7 +4,7 @@ Description: A business, portfolio and blog theme.
 Author: BlueOwlCreative
 Theme URI: http://blueowlcreative.com/wp/fortuna
 Author URI: http://blueowlcreative.com
-Version: 3.00
+Version: 3.20
 License: GNU General Public License
 License URI: license.txt
 Text Domain: Fortuna
@@ -153,6 +153,7 @@ body {
 	fieldset {
 		margin-bottom: 20px; }
 	input[type="text"],
+	input[type="search"],
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
@@ -1216,10 +1217,15 @@ blockquote.right {
 .sidebar {
 	padding-bottom: 35px;
 }
-
+.sidebar .widget h2 {
+	font-size: 18px;
+}
 .sidebar .widget,
 .wpb_widgetised_column .widget {
 	margin-bottom: 35px;
+}
+.sidebar .widget input {
+	margin-bottom: 12px;
 }
 .post_content .wpb_widgetised_column a:not(.button),
 .post_content .wpb_widgetised_column a:not(.button):visited {
